@@ -24,8 +24,12 @@ namespace XamarinFormsClient
                 if (client.Connected)
                 {
                     Connection.Instance.client = client;
-                    Application.Current.MainPage = new NavigationPage(new OperationsPage());
-
+                    //Application.Current.MainPage = new NavigationPage(new OperationsPage());
+                    await DisplayAlert("Connected", "Conntected to server successfully!", "OK");
+                }
+                else
+                {
+                    await DisplayAlert("Error", "Connection unsuccessful!", "OK");
                 }
             }
             catch (Exception ex)
