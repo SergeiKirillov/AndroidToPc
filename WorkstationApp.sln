@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkstationApp", "WorkstationApp\WorkstationApp.csproj", "{4819CB8A-7BF3-485A-BDBF-3D4F61D7D32C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsClient.Android", "XamarinFormsClient\XamarinFormsClient.Android\XamarinFormsClient.Android.csproj", "{ECF02D86-BB1C-4375-9DA6-B696761E5FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinFormsClient", "XamarinFormsClient\XamarinFormsClient\XamarinFormsClient.csproj", "{FE951D9B-0BC7-4EAD-BD52-52CC7536CA84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{4819CB8A-7BF3-485A-BDBF-3D4F61D7D32C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4819CB8A-7BF3-485A-BDBF-3D4F61D7D32C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4819CB8A-7BF3-485A-BDBF-3D4F61D7D32C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF02D86-BB1C-4375-9DA6-B696761E5FB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF02D86-BB1C-4375-9DA6-B696761E5FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF02D86-BB1C-4375-9DA6-B696761E5FB8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ECF02D86-BB1C-4375-9DA6-B696761E5FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF02D86-BB1C-4375-9DA6-B696761E5FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF02D86-BB1C-4375-9DA6-B696761E5FB8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FE951D9B-0BC7-4EAD-BD52-52CC7536CA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE951D9B-0BC7-4EAD-BD52-52CC7536CA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE951D9B-0BC7-4EAD-BD52-52CC7536CA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE951D9B-0BC7-4EAD-BD52-52CC7536CA84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
